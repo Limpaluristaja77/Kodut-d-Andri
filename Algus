@@ -11,3 +11,25 @@ if, while, for
 
 Functions:
 prompt - veebilehitsejasküsib kasutajalt string sisendit
+
+let fruitlist=[]
+for (let i=0;i<10;i=i+1){
+      sisend=prompt()
+        fruitlist.push(sisend)
+
+
+
+
+
+}
+console.log(fruitlist)
+
+
+for (let i=0;i<10;i=i+1){
+      
+    if(fruitlist[i]!= ""){ 
+        console.log(fruitlist[i])}
+
+ }
+
+ 
